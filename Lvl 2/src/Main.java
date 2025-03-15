@@ -1,6 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-        AgendaFactory NewContactFactory = new AgendaContactFactory();
+        AgendaContactFactory NewContactFactory = new AgendaContactFactory();
         Address NewAddress = NewContactFactory.createAddress("Kauppakatu Street", "Jyväskylä", "19910");
         PhoneNumber NewPhone = NewContactFactory.createPhoneNumber("358", "041 123 4567");
 
