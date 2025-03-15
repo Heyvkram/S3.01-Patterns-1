@@ -5,16 +5,16 @@ public class Ship extends Vehicle{
 
     @Override
     public void start() {
-        System.out.println("The Ship " + name + " is starting.");
+        System.out.println("The ship " + name + " is starting.");
     }
 
     @Override
     public void accelerate() {
-        System.out.println("The Ship " + name + " is accelerating.");
+        System.out.println("The ship " + name + " is accelerating.");
     }
 
     @Override
     public void brake() {
-        System.out.println("The Ship " + name + " is braking.");
+        System.out.println("The ship " + name + " is braking.");
     }
 }

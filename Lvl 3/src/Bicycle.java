@@ -5,16 +5,16 @@ public class Bicycle extends Vehicle{
 
     @Override
     public void start() {
-        System.out.println("The Bicycle " + name + " is starting.");
+        System.out.println("The bicycle " + name + " is starting.");
     }
 
     @Override
     public void accelerate() {
-        System.out.println("The Bicycle " + name + " is accelerating.");
+        System.out.println("The bicycle " + name + " is accelerating.");
     }
 
     @Override
     public void brake() {
-        System.out.println("The Bicycle " + name + " is braking.");
+        System.out.println("The bicycle " + name + " is braking.");
     }
 }
